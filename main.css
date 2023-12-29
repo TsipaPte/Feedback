@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to left, #765cd4, #846fd1, #9181ce, #9e93c9, #aba5c4);
+    font-family: 'Yu Gothic UI Light';
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support{
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+.support hr{
+    width: 450px;
+}
+.feedback input, textarea{
+    width: 400px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Calibri;
+}
+.feedback textarea{
+    resize: both;
+    max-height: 300px;
+    max-width: 600px;
+}
+.submit, .cancel{
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.submit{
+    background-color: darkolivegreen;
+}
+.cancel{
+    background-color: darkred;
+}
+.feedbackinput:invalid{
+    border: 2px solid darkred;
+}
